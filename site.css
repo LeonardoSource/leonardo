@@ -46,9 +46,13 @@ div.menu a {
   text-decoration: underline;
 }
 
+.social img {
+    width: 18%;
+    margin-right: 45px;
+}
 h1 { 
     color: #06ff00;
-    font-size: 130px;
+    font-size: 100px;
 }
 
 li {
