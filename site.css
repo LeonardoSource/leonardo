@@ -8,14 +8,20 @@ body {
   font-size: 1.2em;
 }
 
-footer { text-align: center; }
-
-/*    BOX POSTAGENS   */
-.postagem {
-   margin-top: 1%;
-   margin-bottom: 2%;
-   padding: 1%;
+.logo img {
+    width: 20%;
+    height: 20%;
+    float: left;
+    overflow: auto;
+    margin-bottom: 10px;
+    margin-right: 15px;
 }
+.logo h1 {
+    margin-bottom: 5px;
+    padding-top: 30px;
+}
+
+footer { text-align: center; }
 
 
 hr {
@@ -23,41 +29,27 @@ hr {
     box-shadow: 1px 2px 1px 1px black;
 }
 
-/* CURSO EM PROMOÃ‡ÃƒO */
-.blinking{
-
-    animation:blinkingText 0.7s infinite;
-    margin-top: 1%;
-}
-
-@keyframes blinkingText{
-    0%{     color: #ff00b4;}
-    49%{    color: transparent;}
-    60%{    color: transparent; text-shadow: 1px 1px 1px #00fff0;}
-    99%{    color: transparent; text-shadow: 1px 1px 1px #3ee77b; }
-    100%{   color: #9000ff; text-shadow: 1px 1px 1px #ffff00;}
-}
-
-
 /* BOX MENU */
 div.menu {
   background-color: #00FF00;
   padding: 1%;
   overflow: auto;
+  clear: left;
+  text-align: center;
 }
 
 div.menu a {
   display: inline-block;
   color: black;
-  text-align: center;
+  /*text-align: center;*/
   padding: 7px;
   text-decoration: underline;
 }
 
-div.menu a:visited{ color: black; }
-div.menu a:hover{ color: black;}
-
-h1 { color: #06ff00;}
+h1 { 
+    color: #06ff00;
+    font-size: 130px;
+}
 
 li {
     padding-bottom: 1%;
@@ -69,27 +61,7 @@ h2.tag {
 
 h3 { color: #06ff00; }
 
-.frase {
-    text-align: center;
-    font-size: 1.2em;
-    margin: 4%;
-}
-
-.area-do-aluno{
-   margin-left: 2%;
-   margin-right: 2%;
-   margin-bottom: 2%;
-   padding: 1%;
-   border: solid 1px green;
-   box-shadow: 4px 5px 1px #06ff00;
-}
-
-.anuncio-cursos {
-    margin-top: 4%;
-    margin-buttom: 2%;
-}
-
-/* Dispositivos mÃ³veis */
+/* Dispositivos móveis */
 @media screen and (max-device-width: 480px) {
     body {
 	    font-size: 190%;
